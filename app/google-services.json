@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "289282415924",
+    "firebase_url": "https://chatpractica-2e1ed.firebaseio.com",
+    "project_id": "chatpractica-2e1ed",
+    "storage_bucket": "chatpractica-2e1ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289282415924:android:cc27fb5316fe46f7",
+        "android_client_info": {
+          "package_name": "com.independenciatecnologica.chat_practica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289282415924-0cl663dhrp2299033n8iool3j1blu3q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.independenciatecnologica.chat_practica",
+            "certificate_hash": "09f85b8f68e1ef7bb9f044118163fe311f106f5d"
+          }
+        },
+        {
+          "client_id": "289282415924-gff7p9j2ussph9np41506vhvash2g60o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvnoFEJZnFpCuWlaEUJVSQRrcrhmtAT0E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289282415924-gff7p9j2ussph9np41506vhvash2g60o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

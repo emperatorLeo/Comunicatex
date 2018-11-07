@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background_conversation">
+
+   <android.support.design.widget.FloatingActionButton
+       android:id="@+id/fb_send"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       app:backgroundTint="@color/mainVinotinto"
+       android:src="@mipmap/floatin_send_button"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       android:layout_marginBottom="10dp"
+       android:layout_marginRight="10dp"/>
+
+<!-- android:backgroundTint="@color/mainVinotinto"-->
+    <ListView
+        android:id="@+id/lv_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:layout_marginBottom="65dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/fb_send"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="50dp">
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Text Message"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/sfuitext_medium"
+            android:background="@drawable/background_input_edittext"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/mainVinotinto"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+</android.support.constraint.ConstraintLayout>
